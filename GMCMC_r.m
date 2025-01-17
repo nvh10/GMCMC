@@ -142,7 +142,7 @@ for iSample = 2:nSample
                 histogram(theta(i, 400:iSample))
                 drawnow
             end
-            re_er(mean((theta(:, 400:iSample)')), Cs_true(1:nelmt - 3)/100)
+           
         end
 
         figure
